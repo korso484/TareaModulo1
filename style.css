@@ -14,26 +14,18 @@
 }
 
 header{
-    /* background-color: lightgreen; */
     height: 64px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    border-bottom: 1px solid black;
 }
 
 .navbar {
     display: flex;
-    /* padding: 1rem;
-    width: 100%;
-    margin: 16px;
-    height: 50%;
-    justify-content: space-around;
-    padding: var(--size);   */
+    align-items: center;
 }
 
 .navbar a {
-    flex-direction: column;
-    justify-content: center;
+    position: relative;
     height: 64px;
     margin-bottom: 16px;
     font-size: 16px;
@@ -41,6 +33,22 @@ header{
     padding: 0.5rem;
     color: #212429; 
 }
+
+.navbar #container-1 {
+    position: absolute;
+    left: 0;
+}
+
+.navbar #container-2 {
+    position: absolute;
+    margin-left: 10%;
+}
+
+
+.navbar #container-3 {
+    position: absolute;
+    right: 0; 
+} 
 
 p {
     font-size: 32px;
