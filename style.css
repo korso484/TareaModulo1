@@ -53,8 +53,11 @@ header{
 }   
 
 p {
-    font-size: 32px;
-    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-size: 32;
+        font-style: normal;
 }
 
 .grid-container {
@@ -65,8 +68,27 @@ p {
 
 .item {
     padding: 20px;
-    background-color: lightblue;
-    border: 1px solid black;
+    /* background-color: lightblue; */
+    /* border: 1px solid black; */
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.price {
+    font-weight: 700;
+}
+
+.item img {
+    border-radius: 15px;
+}
+
+.item p {
+    font-weight: 400px;
+    font-style: normal;
 }
 
 
