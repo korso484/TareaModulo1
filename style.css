@@ -11,12 +11,19 @@
         font-optical-sizing: auto;
         font-weight: 400;
         font-style: normal;
+   
+
 }
 
 header{
-    height: 64px;
+    box-sizing: border-box;
     display: flex;
-    border-bottom: 1px solid black;
+    
+    /* border-bottom: 1px solid black; */
+} 
+
+body {
+    background-color: #ffffff;
 }
 
 .navbar {
@@ -24,7 +31,12 @@ header{
     width: 100%;
     justify-content: space-between;
     align-items: center;
-   
+    position: fixed;
+    border-bottom: 1px solid black;
+    background-color: #ffffff;
+    border-top: #212429;
+    padding: 16px;
+    top: 0;
 } 
 
 .navbar a {
@@ -32,18 +44,6 @@ header{
     text-decoration: none;
     color: #212429; 
 }
-/* 
-.navbar container-1 {
-    position: absolute;
-    left: 0;
-}
-
-.navbar container-2 {
-    justify-content: space-between;
-    position: absolute;
-    padding-left: 25px;
-    padding-right: 25px;
-} */
 
 
 .navbar #container-3 {
@@ -51,6 +51,8 @@ header{
     width: 264px;
     justify-content: space-between;
 }   
+
+
 
 p {
     font-family: "Montserrat", sans-serif;
@@ -67,19 +69,22 @@ p {
 }
 
 .item {
+    
     padding: 20px;
-    /* background-color: lightblue; */
-    /* border: 1px solid black; */
+    background-color: red;
+    
 }
 
 .info {
     display: flex;
     justify-content: space-between;
     margin: 20px;
+    font-size: 14px;
 }
 
 .price {
     font-weight: 700;
+    background-color: red;
 }
 
 .item img {
@@ -91,9 +96,58 @@ p {
     font-style: normal;
 }
 
+footer {
+    display: flex;
+    height: 128px;
+    background-color: #212429;
+    
+}
+
+.foot {
+   color: #ffffff;
+   display: flex;
+   align-items: center;
+    justify-content: space-between;
+   width: 100%;
+   height: 100%;
+
+   padding: 10px;  
+}
+
+
+.foot img {
+    border-radius: 80%;
+    width: 64px;
+    height: 64px;
+    padding: 1em 1%;
+    background-color: #ffffff;
+}
+
+
+.foot #container-4 {
+
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+
+.foot #container-6 {  
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.foot #container-7 {  
+    display: flex;
+    justify-content: space-between;
+    
+}
 
 @media (min-width: 1280px) {
     .navbar a {
         width: 33%;
     }
 }
+
