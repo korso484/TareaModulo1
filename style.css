@@ -66,25 +66,24 @@ p {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
+    
 }
 
 .item {
-    
+    text-align: center;
     padding: 20px;
-    background-color: red;
-    
 }
 
-.info {
+.info {   
     display: flex;
-    justify-content: space-between;
-    margin: 20px;
-    font-size: 14px;
+    justify-content: space-around;
+    font-size: 14px;   
 }
 
 .price {
+    text-align: center;
     font-weight: 700;
-    background-color: red;
+    
 }
 
 .item img {
