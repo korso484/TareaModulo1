@@ -11,14 +11,11 @@
         font-optical-sizing: auto;
         font-weight: 400;
         font-style: normal;
-   
-
 }
 
 header{
     box-sizing: border-box;
     display: flex;
-    
     /* border-bottom: 1px solid black; */
 } 
 
@@ -35,7 +32,7 @@ body {
     border-bottom: 1px solid black;
     background-color: #ffffff;
     border-top: #212429;
-    padding: 16px;
+    padding: 8px;
     top: 0;
 } 
 
@@ -52,8 +49,8 @@ body {
 
 .navbar .element {
     padding: 16px;
-    font-size: 14px;
-}
+    font-size: 12px;
+} 
 
 
 .navbar #container-3 {
@@ -62,14 +59,19 @@ body {
     justify-content: space-between;
 }   
 
-
+#title {
+    margin: 16px;
+    padding: 32px;
+    font-size: 32px;
+    font-weight: 700;
+}
 
 p {
     font-family: "Montserrat", sans-serif;
         font-optical-sizing: auto;
         font-weight: 700;
         font-size: 32;
-        font-style: normal;
+        font-style: normal; 
 }
 
 .grid-container {
@@ -108,8 +110,7 @@ p {
 footer {
     display: flex;
     height: 128px;
-    background-color: #212429;
-    
+    background-color: #212429;   
 }
 
 .foot {
@@ -119,7 +120,6 @@ footer {
     justify-content: space-between;
    width: 100%;
    height: 100%;
-
    padding: 10px;  
 }
 
@@ -153,11 +153,14 @@ footer {
     display: flex;
     align-items: center;
     
-}
+} 
 
 @media (min-width: 1280px) {
     .navbar a {
         width: 33%;
     }
-}
+
+ } 
+
+
 
