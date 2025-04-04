@@ -109,7 +109,6 @@ p {
 
 footer {
     display: flex;
-    height: 128px;
     background-color: #212429;   
 }
 
@@ -155,10 +154,57 @@ footer {
     
 } 
 
-@media (min-width: 1280px) {
-    .navbar a {
-        width: 33%;
+@media (max-width: 920px) {
+    .navbar #container-2 {
+        display: none;
     }
+
+    .navbar #container-3 {
+        display: none;
+    }
+
+    .navbar #container-1 {
+        margin: 0 auto;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+
+    .foot {
+        display: flex;
+        flex-direction: column;
+    } 
+
+    .foot #container-4 {
+        margin-top: 16px;
+        width: 100%;
+        border-bottom: 1px solid #ffffff;
+        padding: 8px;
+    } 
+
+    .foot #container-5 {
+        margin-top: 16px;
+        width: 100%;
+        border-bottom: 1px solid #ffffff;
+        padding: 8px;
+    }  
+    .foot #container-6 {
+        margin-top: 16px;
+        width: 100%;
+        border-bottom: 1px solid #ffffff;
+        margin-top: 16px;
+        padding: 8px;
+    } 
+    .foot #container-7 {
+        margin-top: 16px;
+        width: 100%;
+        border-bottom: 1px solid #ffffff;
+        margin-top: 16px;
+        padding: 8px;
+    } 
 
  } 
 
